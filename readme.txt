@@ -1,0 +1,3 @@
+将状态机编码改为one-hot编码；
+修改了interface的寄存器读写方式，将write_ram_en改为wdt_en,加入看门狗使能功能；
+功能基本实现，只支持页为512字节的nand_flash

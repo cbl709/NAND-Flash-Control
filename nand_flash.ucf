@@ -1,0 +1,95 @@
+NET ebi_addr<0> LOC=P113; #A31
+NET ebi_addr<1> LOC=P112; #A30
+NET ebi_addr<2> LOC=P103; #A29
+NET ebi_addr<3> LOC=P102; #A28
+NET ebi_addr<4> LOC=P101; #A27
+NET ebi_addr<5> LOC=P100; #A26
+NET ebi_addr<6> LOC=P99; #A25
+NET ebi_addr<7> LOC=P96; #A24
+NET ebi_addr<8> LOC=P95; #A23
+NET ebi_addr<9> LOC=P94; #A22
+NET ebi_addr<10> LOC=P76; #A21
+NET ebi_addr<11> LOC=P75; #A20
+NET ebi_addr<12> LOC=P67; #A19
+NET ebi_addr<13> LOC=P66; #A18
+NET ebi_addr<14> LOC=P65; #A17
+NET ebi_addr<15> LOC=P64; #A16
+#NET ebi_addr<16> LOC=P63; #A15
+#NET ebi_addr<17> LOC=P62; #A14
+
+NET ebi_data<0> LOC=P59;  #D31
+NET ebi_data<1> LOC=P60;  #D30
+NET ebi_data<2> LOC=P57;  #D29
+NET ebi_data<3> LOC=P58;  #D28
+NET ebi_data<4> LOC=P54;  #D27
+NET ebi_data<5> LOC=P56;  #D26
+NET ebi_data<6> LOC=P50;  #D25
+NET ebi_data<7> LOC=P51;  #D24
+NET ebi_data<8> LOC=P41;  #D23
+NET ebi_data<9> LOC=P42;  #D22
+NET ebi_data<10> LOC=P43;  #D21
+NET ebi_data<11> LOC=P44;  #D20
+NET ebi_data<12> LOC=P46;  #D19
+NET ebi_data<13> LOC=P47;  #D18
+NET ebi_data<14> LOC=P48;  #D17
+NET ebi_data<15> LOC=P49;  #D16
+NET ebi_data<16> LOC=P27;  #D15
+NET ebi_data<17> LOC=P26;  #D14
+NET ebi_data<18> LOC=P28;  #D13
+NET ebi_data<19> LOC=P29;  #D12
+NET ebi_data<20> LOC=P30;  #D11
+NET ebi_data<21> LOC=P31;  #D10
+NET ebi_data<22> LOC=P38;  #D 9
+NET ebi_data<23> LOC=P40;  #D 8
+NET ebi_data<24> LOC=P12;  #D 7
+NET ebi_data<25> LOC=P11;  #D 6
+NET ebi_data<26> LOC=P19;  #D 5
+NET ebi_data<27> LOC=P13;  #D 4
+NET ebi_data<28> LOC=P21;  #D 3
+NET ebi_data<29> LOC=P20;  #D 2
+NET ebi_data<30> LOC=P23;  #D 1
+NET ebi_data<31> LOC=P22;  #D 0
+
+NET we_n<0>  LOC=P5;
+NET we_n<1>  LOC=P6;
+NET we_n<2>  LOC=P10;
+NET we_n<3>  LOC=P7;
+
+
+#NET int0_o        LOC=P93; #IRQ4
+NET clk       LOC=P18; #30MHZ
+NET cs_n     LOC=P74; #cs2
+NET rst_n    LOC=P80; #RST_OUT
+NET oe_n     LOC=P4;  #OE
+NET rd_wr    LOC=P3;  #RD_WR
+
+NET nf_cle		LOC=P117;
+NET nf_ale		LOC=P118;
+NET nf_ce_n		LOC=P116;
+NET nf_re_n		LOC=P115;
+NET nf_we_n		LOC=P120;
+NET r			LOC=P114;
+
+net dio<0>		loc=P129;
+net dio<1>		loc=P130;
+net dio<2>		loc=P131;
+net dio<3>		loc=P132;
+net dio<4>		loc=P137;
+net dio<5>		loc=P136;
+net dio<6>		loc=P134;
+net dio<7>		loc=P133;
+
+#NET led1      LOC=P121;
+#NET led2      LOC=P122;
+
+#NET int_o        LOC=P85; #IRQ3
+
+NET "clk" TNM_NET = clk;
+TIMESPEC TS_clk = PERIOD "clk" 60 MHz HIGH 50%;
+
+
+
+
+
+
+
