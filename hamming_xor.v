@@ -27,7 +27,7 @@ begin
     if(hamming_en) begin
        
     case(cnt)
-      0: nfecc <= 24'ha0;
+      0: nfecc <= 24'hff;
       12: begin
           nfecc[0] <= tmp[1]; 
           nfecc[1] <= tmp[3];
