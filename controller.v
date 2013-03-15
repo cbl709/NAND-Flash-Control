@@ -406,7 +406,7 @@ begin
                   cycle_4: sendAddr(nf_addr0[16:9],0);
                   cycle_5: sendAddr(nf_addr0[24:17],0);
                   cycle_6: sendAddr({7'b0,nf_addr0[25]},1);
-                  cycle_7: sendByte(8'hab,1);                        
+                  cycle_7: sendByte(8'hec,1);                        
                   cycle_8: sendCmd(8'h10);
                   cycle_9: begin
                        cnt <= cnt+1;
